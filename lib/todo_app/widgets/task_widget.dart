@@ -21,6 +21,7 @@ class TaskWidget extends StatelessWidget {
             CheckboxListTile(
               secondary: IconButton(
                 icon: const Icon(Icons.delete),
+                color: Colors.red,
                 onPressed: () {
                   delete(task);
                 },
